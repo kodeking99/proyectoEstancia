@@ -1,0 +1,173 @@
+.body{
+    background: aliceblue;
+    margin: auto 0;
+}
+
+h1,h6{
+    text-align: center;
+}
+
+.main{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+}
+
+
+.formulario{
+    width: 80%;
+    max-width: 850px;
+    margin: 0 auto;
+    background-image: url("../img/fondo2.jpeg") ;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 2%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    padding-top: 5%;
+}
+
+.inicioSesion{
+    width: 80%;
+    max-width: 850px;
+    margin: 0 auto;
+    background-image: url("../img/fondo3.jpg") ;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 2%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.alineacion{
+    padding-bottom: 40%;
+}
+
+.form_label{
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form_input{
+    width: 90%;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 35px;
+    border-bottom: 5%;
+}
+
+.form_btn{
+    width: 90%;
+    background: black;
+    height: 45px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form_label_s{
+    display: inline;
+    font-weight: 700;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.titulo_inicio{
+color: brown;
+border-radius: 40%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagen_centro{
+    height: 120px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 480px) {
+    .imagen_centro {
+      margin-left: auto;
+      margin-right: auto;
+    
+    }
+}
+.subrayado{
+   text-decoration: underline;
+}
+
+/*.nav_bg{
+    background-color: pink;
+    align-items: center;
+
+}
+
+.navegacion_principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}*/
+
+.nav_bg {
+    background-color: brown;
+    align-items: center;
+    padding-top: 10px;
+    height: 50px;
+}
+.nav_bg a{
+   color: aliceblue;
+   font-size: 18px;
+   text-shadow: 0px 0px 1px black;
+}
+
+.navegacion_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.anuncios img{
+    height: 120px;
+    width: 100px;
+}
+
+.carousel-inner img {
+    object-fit: contain;
+    /*border-radius: 50px;*/
+}
+
+.card {
+    margin-top: 25px;
+    border-radius: 40px;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 280px; 
+    object-fit: cover; 
+}
+
+.imagen-icono{
+    display: block; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.container p{
+ font-size: 16px;
+}
+
+.container h5{
+    font-size: 22px;
+    color: rgb(255, 165, 0);
+    text-shadow: 0px 1px 1px black;
+    text-align: center;
+   
+}
+
